@@ -20,9 +20,9 @@ class Program
 
 
 
-        Console.WriteLine("\nQuantas senhas deseja gerar?");
+        Console.WriteLine("\nHow many Passes do you want?");
         PassQuantity = int.Parse(Console.ReadLine());
-        Console.WriteLine("Qual o tamanho de senhas desejado?");
+        Console.WriteLine("What is the lenght of the Passes?");
         PassLength = int.Parse(Console.ReadLine());
 
         string[] AllPasses = new string[PassQuantity];
